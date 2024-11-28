@@ -8,7 +8,7 @@ html {
 }
 .page {
   display: flex;
-  align-items: center;
+  align-items: start;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -23,6 +23,7 @@ html {
   min-width: 1140px;
   min-height: 534px;
   column-gap: 30px;
+  margin-top: 150px;
 }
 .result {
   margin-top: 78px;
