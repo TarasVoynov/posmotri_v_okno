@@ -47,7 +47,7 @@ html {
   display: flex;
   flex-direction: column;
   max-height: 300px;
-  overflow: scroll;
+  overflow: auto;
   overflow-x: hidden;
 }
 .content__video-card {
