@@ -7,6 +7,8 @@ html {
   block-size: 100%;
 }
 .page {
+  display: flex;
+  align-items: start;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -17,7 +19,6 @@ html {
 }
 .content {
   display: flex;
-  justify-content: center;
   align-items: end;
   min-width: 1140px;
   min-height: 534px;
