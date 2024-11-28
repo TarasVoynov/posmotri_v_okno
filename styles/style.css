@@ -16,6 +16,7 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  padding-top: 133px;
 }
 .content {
   display: flex;
@@ -23,7 +24,6 @@ html {
   min-width: 1140px;
   min-height: 534px;
   column-gap: 30px;
-  margin-top: 150px;
 }
 .result {
   margin-top: 78px;
