@@ -25,7 +25,7 @@ html {
 }
 .page {
   display: flex;
-  align-items: center;
+  align-items: start;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
