@@ -235,6 +235,7 @@ input[type="checkbox"]:checked + span::after,
   outline: 1px solid #fff;
   outline-offset: 2px;
 }
+.search-form__textfield:focus,
 .search-form__label:focus,
 .search-form__fieldset:focus {
   outline: none;
@@ -244,7 +245,7 @@ input[type="checkbox"]:checked + span::after,
 .button:active {
   border: none;
 }
-.search-form__label:hover,
+.search-form__checkbox-list .search-form__label:hover,
 .search-form__submit-button:hover,
 .content__card-link:hover {
   text-decoration: underline;
