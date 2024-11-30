@@ -51,6 +51,7 @@ html {
   justify-content: space-between;
   gap: 40px;
   column-gap: 5px;
+  line-height: 1.5em;
 }
 .content__list {
   width: 399px;
