@@ -182,6 +182,7 @@ input[type="text"] {
   display: flex;
   gap: 15px;
   appearance: none;
+  margin-bottom: 5px;
 }
 .search-form__pseudo-checkbox {
   position: relative;
