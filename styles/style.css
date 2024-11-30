@@ -50,7 +50,7 @@ html {
   align-items: end;
   justify-content: space-between;
   gap: 40px;
-  column-gap: 5px;
+  column-gap: 4px;
   line-height: 1.5em;
 }
 .content__list {
@@ -148,6 +148,9 @@ html {
   white-space: nowrap;
 }
 .search-form__fieldset {
+  display: flex;
+  flex-wrap: wrap;
+  
   border: none;
 }
 .search-form__label-text,
