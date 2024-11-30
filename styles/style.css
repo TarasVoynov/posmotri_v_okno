@@ -148,9 +148,6 @@ html {
   white-space: nowrap;
 }
 .search-form__fieldset {
-  display: flex;
-  flex-wrap: wrap;
-  
   border: none;
 }
 .search-form__label-text,
