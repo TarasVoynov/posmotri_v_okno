@@ -60,9 +60,7 @@ html {
   flex-direction: column;
   overflow: auto;
 }
-.content__list::-webkit-scrollbar {
-  width: 2px;
-}
+
 .content__video-card {
   display: flex;
   flex-direction: row;
@@ -91,7 +89,7 @@ html {
  width: 394px;
 }
 .content__list-item:not(:last-child) {
-  margin-bottom: 30px;
+  margin-bottom: 37px;
 }
 .title {
   font-family: Oswald, sans-serif;
@@ -166,7 +164,6 @@ html {
 }
 input[type="text"] {
   width: 225px;
-  gap: 0px;
   font-family: Fira Sans Condensed, sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -241,7 +238,9 @@ input[type="checkbox"]:checked + span::after,
 .search-form__fieldset:focus {
   outline: none;
 }
-.search-form__textfield:active,
+.search-form__textfield:active {
+  outline: 1px solid #fff;
+}
 .search-form__label:active,
 .search-form__fieldset:active {
   border: none;
