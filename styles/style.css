@@ -72,6 +72,7 @@ html {
   width: 194px;
   height: 103px;
   object-fit: cover;
+  flex-shrink: 0;
 }
 .result__video-container {
   position: relative;
@@ -84,9 +85,6 @@ html {
   object-fit: fill;
   width: 711px;
   height: 386px;
-}
-.content__list-item {
- width: 394px;
 }
 .content__list-item:not(:last-child) {
   margin-bottom: 37px;
@@ -239,7 +237,8 @@ input[type="checkbox"]:checked + span::after,
   outline: none;
 }
 .search-form__textfield:active {
-  outline: 1px solid #fff;
+border-left: 1px solid #fff;
+border-right: 1px solid #fff;
 }
 .search-form__label:active,
 .search-form__fieldset:active {
